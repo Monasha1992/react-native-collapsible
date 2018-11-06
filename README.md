@@ -79,7 +79,8 @@ import Accordion from 'react-native-collapsible/Accordion';
 Check full example in the `Example` folder.
 
 ```js
-import React, { Component } from 'react-native';
+import React, { Component } from 'react';
+import { View, Text, StyleSheet } from "react-native";
 import Accordion from 'react-native-collapsible/Accordion';
 
 const SECTIONS = [
@@ -139,6 +140,9 @@ class AccordionView extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({});
+
 ```
 
 ### Transition backgrounds
